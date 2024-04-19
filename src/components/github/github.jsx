@@ -14,5 +14,5 @@ export default async function GithubPage() {
 
     return (
         <h1 className={styles.test2}>{github.name}</h1>
-    ); 
+    );
 }

@@ -1,0 +1,12 @@
+.workExperienceCard {
+    background-color: #cbcdd0;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 48px;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    position: relative;
+    grid-area: 2 / 1 / 4 / 2;
+}
