@@ -1,0 +1,40 @@
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.articleCard {
+    max-height: 350px;
+    background-color: #fff;
+    border-radius: 16px;
+    padding-bottom: 0;
+    padding-right: 0;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    grid-area: 1 / 1 / 2 /3;
+}
+
+.articleContentWrapper {
+    z-index: 1;
+    height: 100%;
+    border-radius: 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 39%;
+    padding-top: 36px;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background-color: #40c2a6;
+}
+
+.profileImg {
+    position: absolute;
+    right: 0px;
+    bottom: 18px;
+    transform: scaleX(-1);
+}
